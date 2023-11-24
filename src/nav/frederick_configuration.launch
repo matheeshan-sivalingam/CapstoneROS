@@ -1,0 +1,15 @@
+<!-- navigation.launch -->
+
+<launch>
+
+  <!-- RPLidar Node -->
+  <include file="$(find rplidar_ros)/launch/rplidar_a1.launch" />
+
+  <!-- HectorSLAM -->
+  <include file="$(find hector_slam_launch)/launch/tutorial.launch" />
+
+  <!-- Move Base -->
+  <include file="move_base.xml" />
+
+</launch>
+
