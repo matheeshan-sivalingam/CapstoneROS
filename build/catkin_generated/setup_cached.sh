@@ -7,4 +7,5 @@
 # new environment variables
 
 # modified environment variables
+export PATH='/home/frederick/catkin_ws/devel/bin:/opt/ros/noetic/bin:/home/frederick/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
 export PWD='/home/frederick/catkin_ws/build'
